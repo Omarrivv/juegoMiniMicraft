@@ -25,7 +25,7 @@ class Voxel(Button):
                 destroy(self)
 
 chunkSize = 16
-
+# gaaaaaaaaaaaaaaaaaaaaaaaaaaa mati se la come
 for z in range(chunkSize):
     for x in range(chunkSize):
         voxel = Voxel(position=(x,0,z))
