@@ -1,9 +1,7 @@
 # from pygments import highlight
-from ursina import *
+from ursina import *  # importamos todos los archivos de ursina
 from ursina.prefabs.first_person_controller import FirstPersonController
-
 app = Ursina()
-
 class Voxel(Button):
     def __init__(self,position=(0,0,0)):
         super().__init__(
@@ -25,7 +23,8 @@ class Voxel(Button):
                 destroy(self)
 
 chunkSize = 16
-# gaaaaaaaaaaaaaaaaaaaaaaaaaaa mati se la come
+# gaaaaaaaaaaaaaaaaaaaaaaaaaaa mati se la come dbibiodvsbdsvbbdsvbio
+# djoodsghpdgsihphpdshp vam0ndsndvj0jd9njd git jajajajja
 for z in range(chunkSize):
     for x in range(chunkSize):
         voxel = Voxel(position=(x,0,z))
